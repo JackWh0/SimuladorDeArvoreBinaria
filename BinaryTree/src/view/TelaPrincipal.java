@@ -333,13 +333,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
 
             if (posicao == 0) {
-                mensagem = valor + " encontrado no nível 1(raíz) da árvore!";
+                mensagem = valor + " encontrado no nível 0(raíz) da árvore!";
             } else if (posicao > 0 && posicao <= 2) {
-                mensagem = valor + " encontrado no nível 2 da árvore!";
+                mensagem = valor + " encontrado no nível 1 da árvore!";
             } else if (posicao > 2 && posicao <= 6) {
-                mensagem = valor + " encontrado no nível 3 da árvore!";
+                mensagem = valor + " encontrado no nível 2 da árvore!";
             } else if (posicao > 6 && posicao <= 14) {
-                mensagem = valor + " encontrado no nível 4 da árvore!";
+                mensagem = valor + " encontrado no nível 3 da árvore!";
             } else {
                 mensagem = "Valor não encontrado!";
             }
